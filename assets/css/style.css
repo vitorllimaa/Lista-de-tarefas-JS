@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(207, 207, 207);
+}
+
+.content-center {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.856);
+    border-radius: 15px;
+}
+
+.content-center .text-center {
+    text-align: center;
+}
+
+.content-center img {
+    width: 70%;
+}
+
+.content-center form {
+    margin: 20px;
+}
+
+.content-center input,
+.content-center button {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 0.5px;
+    border: none;
+    outline: none;
+}
+
+.content-center button {
+    background-color: rgb(187, 187, 187);
+    border-radius: 2px;
+}
+
+.content-center button:hover {
+    background-color: rgb(182, 166, 74);
+    cursor: pointer;
+}
+
+.content-center button:active {
+    background-color: rgb(187, 187, 187);;
+    cursor: pointer;
+}
+
+.content-center input {
+    border-bottom: thistle;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 10px;
+}
+
+.content-center input:focus {
+    border-bottom-color: rgb(182, 166, 74);
+}
+
+header a {
+    color:rgba(194, 185, 185, 0.473);
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+header a:visited {
+    color: #444;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px auto;
+}
+
+footer {
+    font-siza: .8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content-tabuada {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+}
+
+.content-tabuada table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-tabuada td {
+    padding: 6px;
+    border-top: 1px solid #DEE2E6;
+}
+
+.content-tabuada tbody tr:nth-child(ODD) {
+    background-color: rgb(0, 0, 0, .05);
+}
+
+.content-tabuada tbody tr:hover {
+    background-color: rgb(0, 0, 0, .25);
+    cursor: pointer;
+}
+.todo {
+    list-style: none;
+    padding: 0;
+}
+
+.todo li {
+    padding: 13px;
+    border-bottom: 1px solid #DEE2E6;
+
+}
+
+.todo li input {
+    width: initial;
+    margin-right: 5px;
+}
+
+.todo li.complete {
+    text-decoration: line-through;
+    color: rgba(92, 40, 40, .30);
+    cursor: not-allowed;
+}
+
+.todo button {
+    width: initial;
+    float: right;
+}
+
+#new-task {
+    width: 100%;
+    padding: 10px;
+}
